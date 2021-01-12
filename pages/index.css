@@ -36,8 +36,8 @@
 @import url("../blocks/intro/__text/intro__text.css");
 /* Элемент list */
 @import url("../blocks/intro/__list/intro__list.css");
-/* Модификатор width для item */
-@import url("../blocks/intro/__list-item/_width/intro__list-item_width_normal.css");
+/* Элемент span-accent */
+@import url("../blocks/intro/__span-accent/intro__span-accent.css");
 
 /* Блок photo-grid */
 @import url("../blocks/photo-grid/photo-grid.css");
