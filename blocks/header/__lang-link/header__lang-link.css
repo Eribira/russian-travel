@@ -1,0 +1,21 @@
+.header__lang-link:first-of-type {
+  margin-left: auto;
+  margin-right: 18px;
+  /* Сделал необходимый отступ между Ru и En */
+}
+
+.header__lang-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 117%;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 111%;
+  }
+}

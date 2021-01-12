@@ -8,5 +8,12 @@
   /* Задал шрифт и фон для всей страницы */
   color: #FFFFFF;
   /* Цвет текста на всей странице белый */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* Сглаживание шрифтов */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  /* Изменение размера шрифта пропорционально масшатбу страницы */
 }
 

@@ -1,38 +1,10 @@
 .header {
   max-width: 1184px;
-  width: 90%;
   margin: 28px auto 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   }
-
-.header__logo {
-  background-image: url("../../images/header-logo.svg");
-  /* Логотип не несет смысловой нагрузки, потому background-image */
-  width: 176px;
-  height: 52px;
-}
-
-.header__lang-link:first-of-type {
-  margin-left: auto;
-  margin-right: 18px;
-  /* Сделал необходимый отступ между Ru и En */
-}
-
-.header__lang-link {
-  text-decoration: none;
-  color: #FFFFFF;
-  font-size: 24px;
-  line-height: 28px;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.header__lang-link_status_active {
-  text-decoration-line: underline;
-}
-/* Модификатор для подчеркивания текущего языка страницы */
 
 @media screen and (max-width: 1024px) {
   .header {
@@ -46,8 +18,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
   .header {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 288px;
   }
 }

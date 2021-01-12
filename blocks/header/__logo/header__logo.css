@@ -1,0 +1,14 @@
+.header__logo {
+  background-image: url("../../../images/header-logo.svg");
+  /* Логотип не несет смысловой нагрузки, потому background-image */
+  width: 176px;
+  height: 52px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-height: 42px;
+    max-width: 142px;
+    background-size: cover;
+  }
+}

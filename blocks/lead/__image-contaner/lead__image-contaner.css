@@ -1,0 +1,17 @@
+.lead__image-contaner {
+  margin: 64px 0 0 0;
+  /* Обнулил стандартный margin у figure */
+  /* Тег figure использован, чтобы разместить фото с подписью */
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image-contaner {
+    margin: 56px 0 0 0;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lead__image-contaner {
+    margin-top: 40px;
+  }
+}

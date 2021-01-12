@@ -1,0 +1,4 @@
+.header__lang-link_status_active {
+  text-decoration-line: underline;
+}
+/* Модификатор для подчеркивания текущего языка страницы */

@@ -1,0 +1,25 @@
+.places__paragraph:first-of-type {
+  margin-top: 0;
+  /* Обнулил верхний отступ для первого параграфа в каждой карточке */
+} 
+
+.places__paragraph {
+  margin: 26px 0 0 0;
+/* Обнулил стандартный margin */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 768px) {
+  .places__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .places__paragraph {
+    margin-top: 25px;
+  }
+}

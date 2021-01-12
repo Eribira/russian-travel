@@ -1,0 +1,14 @@
+.places__link:hover {
+  opacity: .8;
+}
+
+.places__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color:#FFFFFF;
+  transition: opacity .5s linear;
+  /* Плавная прозрочность при наведении */
+}
