@@ -3,31 +3,37 @@
   max-width: 1184px;
   background-image: url("../../images/cover-trains.jpg");
   /* Чтобы поместить текст поверх изображения делаю изображение фоновым */
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
-  height: calc(70vh - 92px)
-  /* 92px отступ от предыдущей секции */
+  background-repeat: no-repeat;
+  min-height: 740px;
+  
 }
 /* В аннотации к работе указано не использовать абсолютных величин, потому сделал vh для секции cover. Нет идей, как реализовать иначе. */
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
-    height: 50vh;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .cover {
     max-width: 550px;
-    height: 30vh;
+    min-height: 300px;
   }
 }
-
 
 @media screen and (max-width: 320px) {
   .cover {
     max-width: 320px;
-    height: 25vh;
+    min-height: 200px;
   }
 }
