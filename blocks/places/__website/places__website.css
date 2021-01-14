@@ -8,3 +8,11 @@
     margin-top: 1.5em;
   } 
 }
+
+@media screen and (max-width:320px) {
+  .places__website {
+    margin-left: 5%;
+  }
+}
+
+

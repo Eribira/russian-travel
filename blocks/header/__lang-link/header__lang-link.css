@@ -1,16 +1,20 @@
-.header__lang-link:first-of-type {
-  margin-left: auto;
-  margin-right: 18px;
-  /* Сделал необходимый отступ между Ru и En */
+.header__lang-link:last-of-type {
+  margin-right: 0;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 .header__lang-link {
+  margin-right: 18px;
   text-decoration: none;
   color: #FFFFFF;
   font-size: 24px;
   line-height: 117%;
   font-style: normal;
   font-weight: normal;
+  transition: opacity .5s linear;
 }
 
 @media screen and (max-width: 320px) {
