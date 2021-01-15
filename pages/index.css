@@ -9,6 +9,9 @@
 
 /* Блок header */
 @import url("../blocks/header/header.css");
+/* Элемент lang-link-contaner */
+@import url("../blocks/header/__lang-link-contaner/header__lang-link-contaner.css");
+
 /* Элемент logo */
 @import url("../blocks/header/__logo/header__logo.css");
 /* Элемент lang-link */
